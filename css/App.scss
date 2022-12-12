@@ -1,0 +1,183 @@
+
+$baseColor: #6e008d;
+$fontColor: #ffffff;
+$navColor: #000000 ;
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+* {
+  font-family: "Rubik";
+}
+// body
+body{
+  background-color: rgb(0, 0, 0);
+  background-image: url('../pics/bgCont.png');
+  background-attachment: fixed;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+}
+// naor logo - introduction
+.imgInto{
+  margin-top: 2vh;
+  width: 20vw;
+  height: 20vh;
+}
+.introContainer{
+  padding: 2vw;
+}
+.LoadingGif{
+  margin-top: 10vh;
+}
+.contactContainer{
+  height: 5vh;
+  padding-top: 1vh;
+  background-color:rgb(0, 91, 114);
+  margin-top: 3vh;
+}
+.pinkBoarders{
+  border-left: $navColor 2vw solid;
+  border-right: $navColor 2vw solid;
+}
+// about
+.aboutCont{
+  padding: 5vw;
+}
+// changes
+.changesPics{
+  width: 70vw;
+  height: 45vh;
+  margin-bottom: 2vh;
+}
+// plans
+.plansCont{
+  border: 2px solid $fontColor;
+  border-radius: 20px;
+  margin-top: 2vh;
+  padding-top: 2vw;
+}
+.motivationVid{
+  width: 80vw;
+  height: 40vh;
+  margin: auto;
+}
+.imgWhatsapp{
+  width: 35vw;
+  height: 40vh;
+  margin: 1vw;
+}
+.whatsappVid{
+  height: 50vh;
+}
+// contact 
+.submitBtn{
+  height: 7vh;
+  width: 58vw;
+  padding-bottom: 1vw;
+}
+.margeSides{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.formItem{
+  height: 7vh;
+  padding: 0.5rem;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: $navColor 1px solid;
+  text-align: right;
+  direction: rtl;
+  background-color: rgb(70, 70, 70) ;
+  width: 58vw;
+  color: white;
+}
+.text-flow{
+  word-wrap: break-word;
+  height: 30vh;
+  width: 58vw;
+}
+// general
+*{
+  text-align: "right";
+  direction:'rtl';
+}
+.fontColor{
+  color: $fontColor;
+}
+.smallFont{
+  font-size: 4vw 4vh;
+}
+h4{
+  font-size: 6vw 6vh;
+  font-weight: bold;
+}
+.black{
+  color: black;
+}
+.white{
+  color: white;
+}
+.center{
+  text-align: center;
+}
+// nav
+.iconNav{
+  width: 5vh;
+  height: 5vh;
+}
+.iconNavWts{
+  width: 5vh;
+  height: 4vh;
+}
+.navBar{
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+.hoverMouse{
+  cursor: pointer; 
+}
+.me-auto{
+  margin: auto;
+}
+.video-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.video-container .introVid {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 60vh;
+}
+.gifarrow{
+  width: 20vw;
+  height: 20vh;
+}
+@media (min-width: 768px){
+  .imgInto{
+    margin-top: 10vh;
+    width: 20vw;
+    height: 30vh;
+  }
+  .changesPics{
+    width: 70vh;
+    height: 70vh;
+  }
+  .imgWhatsapp{
+    width: 25vw;
+    height: 70vh;
+  }
+  .motivationVid{
+    width: auto;
+    height: auto;
+  }
+}
