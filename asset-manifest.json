@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/diceProject/static/css/main.e4fe9a15.css",
-    "main.js": "/diceProject/static/js/main.5a6a94cd.js",
+    "main.css": "/diceProject/static/css/main.39863306.css",
+    "main.js": "/diceProject/static/js/main.17cccf8b.js",
     "index.html": "/diceProject/index.html",
-    "main.e4fe9a15.css.map": "/diceProject/static/css/main.e4fe9a15.css.map",
-    "main.5a6a94cd.js.map": "/diceProject/static/js/main.5a6a94cd.js.map"
+    "main.39863306.css.map": "/diceProject/static/css/main.39863306.css.map",
+    "main.17cccf8b.js.map": "/diceProject/static/js/main.17cccf8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4fe9a15.css",
-    "static/js/main.5a6a94cd.js"
+    "static/css/main.39863306.css",
+    "static/js/main.17cccf8b.js"
   ]
 }
